@@ -1,0 +1,60 @@
+#indProductDiv{
+    display: flex;
+    gap: 50px;
+}
+#image{
+    height: 500px;
+    width: 500px;
+}
+#Details{
+    display: grid;
+}
+p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media only screen and (min-width: 425px) and (max-width: 767px)  {#indProductDiv{
+    display: grid;
+    gap: 50px;
+}
+#image{
+    height: 500px;
+    width: 500px;
+}
+#Details{
+    display: grid;
+}
+p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}}
+@media only screen and (min-width: 767px) and (max-width: 1024px)  {#indProductDiv{
+    display: flex;
+    gap: 50px;
+}
+#image{
+    height: 500px;
+    width: 500px;
+}
+#Details{
+    display: grid;
+}
+p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}}
+@media only screen and (max-width: 425px)  {#indProductDiv{
+    display: flex;
+    gap: 50px;
+}
+#image{
+    height: 500px;
+    width: 500px;
+}
+#Details{
+    display: grid;
+}
+p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}}
